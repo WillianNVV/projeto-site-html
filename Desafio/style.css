@@ -1,0 +1,55 @@
+/*CSS extern0*/
+* {
+    margin: 20px;
+    padding: 10px;
+}
+
+.fundo {
+    background-color: black;
+    border: 5px double white;
+}
+
+.titulo {
+    color: red;
+    text-align: center;
+    font: 30px Impact;
+    border: 5px solid red;
+    border-radius: 10px;
+}
+
+.subtitulo {
+    color: white;
+    text-align: center;
+    font: 20px Arial Black;
+    border: 2px solid blue;
+    border-radius: 10px;
+    text-shadow: 1px 1px 3px grey;
+    background-color: blue;
+}
+
+ol li::marker {
+    color: red;
+}
+
+ol li {
+    color: white;
+    font: 15px Verdana;
+}
+
+ul>li::marker {
+    color: blue;
+}
+
+.glossario {
+    font: 40px Arial Black;
+    color: white;
+    text-align: center;
+    box-shadow: 10px 10px 5px white;
+    border: 5px solid white;
+}
+
+.imagem {
+    border: 10px solid red;
+    border-radius: 20px;
+    padding: 0px;
+}
